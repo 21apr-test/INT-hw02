@@ -97,14 +97,31 @@ header {
 
 .text-news {
     padding: 0 20px;
+
+    a {
+        float: left;
+    }
+
+    a:hover {
+        font-weight: 700;
+    }
 }
 
-.text-news a {
-    float: left;
-}
+.news-details {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    // border: 1px red solid;
 
-.text-news a:hover {
-    font-weight: 700;
+    .time {
+        font-size: 85%;
+        color: gray;
+        // float: right;
+    }
+
+    // svg {
+    //     float: left;
+    // }
 }
 
 footer {

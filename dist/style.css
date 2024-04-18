@@ -98,13 +98,21 @@ header {
 .text-news {
   padding: 0 20px;
 }
-
 .text-news a {
   float: left;
 }
-
 .text-news a:hover {
   font-weight: 700;
+}
+
+.news-details {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.news-details .time {
+  font-size: 85%;
+  color: gray;
 }
 
 footer {
